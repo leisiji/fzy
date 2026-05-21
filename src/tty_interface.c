@@ -295,7 +295,7 @@ static const keybinding_t keybindings[] = {{"\x1b", action_exit},       /* ESC *
 					   {KEY_CTRL('H'), action_del_char}, /* Backspace (C-H) */
 					   {KEY_CTRL('W'), action_del_word}, /* C-W */
 					   {KEY_CTRL('U'), action_del_all},  /* C-U */
-					   {KEY_CTRL('I'), action_autocomplete}, /* TAB (C-I ) */
+					   {KEY_CTRL('I'), action_next}, /* TAB (C-I ) */
 					   {KEY_CTRL('C'), action_exit},	 /* C-C */
 					   {KEY_CTRL('D'), action_exit},	 /* C-D */
 					   {KEY_CTRL('G'), action_exit},	 /* C-G */
